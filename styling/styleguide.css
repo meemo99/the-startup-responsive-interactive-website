@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../assets/proxima/proximanova-regular.otf') format("opentype");
+    font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../assets/proxima/proximanova-semibold.otf') format("opentype");
+    font-style: normal;
+  font-weight: 600;
+}
+
+@layer styleguide {
+    :root{
+        /* Variabelen Kleuren */
+        --color-primary: #FF9B21;
+        --color-secondary: #6a281c;
+        --color-tertiary: #ffffff;
+        --color-quarternary: #f8f0e6;
+        --color-quinary: #e5f6ff;
+        --color-senary: #2a8fd8;
+        --text-color-primary: #333333;
+        --highlight-color-primary: #64c1ed;
+        --highlight-color-secondary: #fde9eb;
+        --highlight-color-tertiary: #ffffff;
+        --highlight-color-quarternary: #ebf6e3;
+        --highlight-color-quinary: #de737d;
+        --highlight-color-senary: #599f7e;
+
+        /* Variabelen Typografie */
+        --font-heading: "ProximaNova", sans-serif;
+        --font-body: "ProximaNova", sans-serif;
+
+        --font-size-large: 24px;
+        --font-size-medium: 20px;
+        --font-size-small: 16px;
+        --font-size-extra-small: 14px;
+    }
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
