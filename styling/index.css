@@ -3,25 +3,6 @@
     margin: 0;
 }
 
-/* 
-.dropdown-content {
-  display: none;
-  /* position: absolute;
-  margin: 15px;
-  padding: 10px;
-  min-width: 230px;
-  z-index: 1;
-}
-
-.dropdown-content bttn {
-  padding: 12px 16px;
-  display: block;
-}
-
-.show {
-  display:block;
-} */
-
 header{
     display: flex;
     flex-direction: row;
